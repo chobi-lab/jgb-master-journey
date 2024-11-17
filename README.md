@@ -1,4 +1,4 @@
-# JGB-MASTER-JOUNREY
+# JGB-MASTER-JOURNEY
 "JGB Master,I will become!"
 
 ### Study notes
