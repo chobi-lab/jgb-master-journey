@@ -19,13 +19,11 @@
 
 * 確認すべきデータ
     * 日本証券業協会が毎月発表する[公社債投資家別売買高](https://www.jsda.or.jp/shiryoshitsu/toukei/toushika/index.html)
-    * ↑証券会社と銀行商品勘定経由の売買足高で市場の売買動向を客観的に把握する唯一の手段。
-    * ![alt text](jgb-investers.png)
-    * 
+    * ↑証券会社と銀行商品勘定経由の売買足高で市場の売買動向を客観的に把握する唯一の手段。![alt text](jgb-investers.png)
+
 
 * その他メモ
-    * 資金運用部ショック
-    * ![alt text](unnyoubu-shock.png)
+    * 資金運用部ショック![alt text](unnyoubu-shock.png)
 
 
 * 国債入札基礎
@@ -45,9 +43,12 @@
     *  即時リオープン方式とは、新発国債の元利払日と表面利率が既発債と同一である場合、原則として、その既発債と同一銘柄として追加発行（リオープン）する方式。これは**5年債**が対象となる。
        *　10y,20y,30y,40yについては、財務省のHPを参照。年度毎に変更される模様。[令和6年度の固定利付国債のリオープン方式等](https://www.mof.go.jp/jgbs/topics/press_release/20240314-01.htm) 　
     *  流動性供給入札は前日売買参考統計値を基準とした利回り差コンベンショナル方式。
-    
     *  参考:[日経電子版　国債入札とは](https://www.nikkei.com/article/DGXZQOUB286JL0Y4A620C2000000/) , [財務省国債発行市場](https://www.mof.go.jp/jgbs/publication/debt_management_report/2022/saimu2022-2-1.pdf)
 
 * 日銀国債買入（輪番オペ）
-    * 入札方法は前日売買参考統計値を基準とした利回り差コンベンショナル方式。 　
-
+    * [日銀HP:国債買入れ](https://www.boj.or.jp/mopo/measures/mkt_ope/ope_f/index.htm)
+    * 輪番オペの名称由来は以前は買い入れ金額も少なく対象金融股間が毎回輪番方式で変更されていたことから国債輪番買いオペ（輪番オペ）とも言われいてた。
+    * 入札方法は前日売買参考統計値を基準とした利回り差コンベンショナル方式。[制度概要](https://www.boj.or.jp/mopo/measures/mkt_ope/ope_f/opetori4.htm)
+    * [オペタイムテーブル](https://www.boj.or.jp/mopo/measures/mkt_ope/opetime.htm)を見ると、例えば国債買入オペの午前オファー(TDB除く)については午前10:10にオファー、応募締切が11:40、オファーバックが12:00頃となっている。
+    * オペの結果のマーケット解釈は国債入札とは逆方向で考える必要。応札倍率が高ければ、市中の売りたいニーズが高いため、需給の弱さが意識され債券は売り方向。
+    * 2024/10/31時点の国債買入四半期予定。![alt text](bojauction-20241031.png)
