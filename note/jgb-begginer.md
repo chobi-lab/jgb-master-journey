@@ -1,13 +1,5 @@
 # 日本国債導入編
 
-* 全体メモ
-    * [md技法](https://qiita.com/aki_number16/items/9e4f98e5fb948370ceb6)　
-    * プレビュー画面:Ctrl+Shift+V　　
-
-* todo
-    * webブラウジングで国債入札スケジュールを取得するコード
-    * 入札のテールなどの情報はBBGからとれる？30yr JGB auction tail
-    * 個人のgithubに挙げて見れるようにする
 * 国債市場関連資料集
      * [財務省国債発行市場](https://www.mof.go.jp/jgbs/publication/debt_management_report/2022/saimu2022-2-1.pdf)
      * 古い資料だが国債市場の全体感がデータ出所とともにわかる: [日本の国債市場と投資家行動](https://www.carf.e.u-tokyo.ac.jp/wp/wp-content/uploads/2021/12/zaisei22-material.pdf)
@@ -47,7 +39,7 @@
 
 * 日銀国債買入（輪番オペ）
     * [日銀HP:国債買入れ](https://www.boj.or.jp/mopo/measures/mkt_ope/ope_f/index.htm)
-    * 輪番オペの名称由来は以前は買い入れ金額も少なく対象金融股間が毎回輪番方式で変更されていたことから国債輪番買いオペ（輪番オペ）とも言われいてた。
+    * 輪番オペの名称由来は以前は買い入れ金額も少なく対象金融股間が毎回輪番方式で変更されていたことから国債輪番買いオペ（輪番オペ）とも言われていた。
     * 入札方法は前日売買参考統計値を基準とした利回り差コンベンショナル方式。[制度概要](https://www.boj.or.jp/mopo/measures/mkt_ope/ope_f/opetori4.htm)
     * [オペタイムテーブル](https://www.boj.or.jp/mopo/measures/mkt_ope/opetime.htm)を見ると、例えば国債買入オペの午前オファー(TDB除く)については午前10:10にオファー、応募締切が11:40、オファーバックが12:00頃となっている。
     * オペの結果のマーケット解釈は国債入札とは逆方向で考える必要。応札倍率が高ければ、市中の売りたいニーズが高いため、需給の弱さが意識され債券は売り方向。
