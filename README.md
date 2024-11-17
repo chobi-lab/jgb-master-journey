@@ -3,6 +3,6 @@
 
 ### Study notes
 * TODO
-  * [todo.md](note/todo.md)
+  * [todo.md](/note/todo.md)
 * begginer-guide
-  * [jgb-begginers.md](note/jgb-begginers.md)
+  * [jgb-begginers.md](/note/jgb-begginer.md)
