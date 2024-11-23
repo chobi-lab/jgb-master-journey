@@ -10,3 +10,4 @@
 + [ ] webブラウジングで国債入札スケジュールを取得するコード
   + [ ] mofの[URLの効率的な取得](https://qiita.com/___fff_/items/577b494e1725e5173be5)
 + [ ] 入札のテールなどの情報はBBGからとれる？30yr JGB auction tail
+ 

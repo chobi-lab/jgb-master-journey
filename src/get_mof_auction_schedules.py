@@ -4,7 +4,7 @@ import pandas as pd
 from urllib.parse import urlparse,urljoin
 from settings.Settings import BaseSettings
 
-settings = BaseSettings
+settings = BaseSettings()
 
 def get_mof_table(url):
     # ページを取得
