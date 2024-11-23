@@ -1,9 +1,10 @@
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
-from .settings.Settings import BaseSettings
+from urllib.parse import urlparse,urljoin
+from settings.Settings import BaseSettings
 
-settings = BaseSettings
+settings = BaseSettings()
 
 def get_mof_table(url):
     # ページを取得
@@ -42,5 +43,8 @@ def get_mof_table(url):
 
 
 if __name__ == '__main__':
-    url = settings.MOF_BASE_URL
-    print(url)
+    base_url = settings.MOF_BASE_URL
+    target_cdr = "2412"
+    target_path = f'{target_cdr}.htm'
+    url = urljoin(base_url , target_path)
+    mof_auction_schedule=get_mof_table(url)
