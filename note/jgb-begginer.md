@@ -10,12 +10,12 @@
 
 ## モニタリングすべきリンク・データ
 * 日本証券業協会が毎月発表する[公社債投資家別売買高](https://www.jsda.or.jp/shiryoshitsu/toukei/toushika/index.html)
-* ↑証券会社と銀行商品勘定経由の売買足高で市場の売買動向を客観的に把握する唯一の手段。![alt text](jgb-investers.png)
+* ↑証券会社と銀行商品勘定経由の売買足高で市場の売買動向を客観的に把握する唯一の手段。![alt text](ref/jgb-investers.png)
 * 円債村の住人の相場観が参考になる。[ドラめもん](https://doramemon7743.sakura.ne.jp/index.html)
 
 
 ## その他メモ
-* 資金運用部ショック![alt text](unnyoubu-shock.png)
+* 資金運用部ショック![alt text](ref/unnyoubu-shock.png)
 
 
 ## 国債入札基礎
@@ -43,4 +43,4 @@
 * 入札方法は前日売買参考統計値を基準とした利回り差コンベンショナル方式。[制度概要](https://www.boj.or.jp/mopo/measures/mkt_ope/ope_f/opetori4.htm)
 * [オペタイムテーブル](https://www.boj.or.jp/mopo/measures/mkt_ope/opetime.htm)を見ると、例えば国債買入オペの午前オファー(TDB除く)については午前10:10にオファー、応募締切が11:40、オファーバックが12:00頃となっている。
 * オペの結果のマーケット解釈は国債入札とは逆方向で考える必要。応札倍率が高ければ、市中の売りたいニーズが高いため、需給の弱さが意識され債券は売り方向。
-* 2024/10/31時点の国債買入四半期予定。![alt text](bojauction-20241031.png)　 
+* 2024/10/31時点の国債買入四半期予定。![alt text](ref/bojauction-20241031.png)　 
