@@ -44,7 +44,7 @@ def get_mof_table(url):
 
 if __name__ == '__main__':
     base_url = settings.MOF_BASE_URL
-    target_cdr = "2412"
+    target_cdr = "2501"
     target_path = f'{target_cdr}.htm'
     url = urljoin(base_url , target_path)
     mof_auction_schedule=get_mof_table(url)
